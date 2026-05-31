@@ -1,4 +1,5 @@
 import express from "express";
+import { env } from "../env.ts";
 
 const app = express();
 
