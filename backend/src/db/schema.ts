@@ -8,7 +8,6 @@ import {
   pgEnum,
   integer,
 } from "drizzle-orm/pg-core";
-import { application } from "express";
 
 export const applications = pgTable("applications", {
   id: uuid("id").primaryKey().defaultRandom(),

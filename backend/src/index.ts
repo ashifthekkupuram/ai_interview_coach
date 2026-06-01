@@ -1,5 +1,6 @@
 import app from "./server.ts";
+import { env } from "../env.ts";
 
-app.listen(8000, () => {
-  console.log("server is running on 8000");
+app.listen(env.PORT, () => {
+  console.log(`server is running on ${env.PORT}`);
 });

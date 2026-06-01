@@ -20,6 +20,8 @@ const envSchema = z.object({
     .default("development"),
   PORT: z.coerce.number().default(5000),
   DATABASE_CONNECTION_URL: z.string().startsWith("postgresql://"),
+  GROQ_API_KEY: z.string(),
+  CORS_WHITELIST: z.string().default('')
 });
 
 type EnvType = z.infer<typeof envSchema>;
