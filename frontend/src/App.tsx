@@ -1,7 +1,26 @@
-const App = () => {
-  return (
-    <div className="font-bold text-2xl p-1 m-1" >AI Interview Coach App</div>
-  )
-}
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-export default App
+import Home from "./pages/Home";
+import Quiz from "./pages/Quiz";
+import Result from "./pages/Result";
+
+const App = () => {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/quiz/:id",
+      element: <Quiz />,
+    },
+    {
+      path: "/result/:id",
+      element: <Result />,
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
+};
+
+export default App;
