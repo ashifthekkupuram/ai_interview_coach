@@ -9,7 +9,8 @@ const corsOptions: CorsOptions = {
         } else {
             callback(new Error('Blocked by CORS policy'));
         }
-    }
+    },
+    credentials: true
 };
 
 export default corsOptions

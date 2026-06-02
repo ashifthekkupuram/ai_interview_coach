@@ -54,6 +54,7 @@ export const createAnswer = async (
             : answer.score,
       }).where(eq(sessions.id, question.sessionId as string));
 
+
     return res.json({
       message: "Answer created",
     });
