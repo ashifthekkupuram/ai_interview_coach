@@ -22,7 +22,7 @@
 
 ## Overview
 
-I Interview Coach is a web app where you paste a job description and your resume, and it generates tailored interview questions, grades your answers in real-time with coaching feedback, and produces a downloadable PDF report with your scores and improvement tips — all powered by AI.
+I Interview Coach is a web app where you paste a job description and your resume, and it generates tailored interview questions, grades your answers in real-time with coaching feedback - all powered by AI.
 
 ---
 
