@@ -33,9 +33,9 @@ I Interview Coach is a web app where you paste a job description and your resume
 - Styling: Tailwind CSS
 
 **Backend**
-- Runtime: Node.js / Python
+- Runtime: Node.js
 - Framework: Express
-- Database: PostgreSQL / MongoDB
+- Database: PostgreSQL
 - ORM: Drizzle
 - LLM: Groq
 
